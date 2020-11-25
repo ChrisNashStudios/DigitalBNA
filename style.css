@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Nunito+Sans:wght@600;700&display=swap');
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+h1 {
+    font-weight: 700;
+    color: #002293;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-weight: 500;
+    color: #002293;
+}
+
+p, ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.box-height{
+    height: 400px;
+}
+
+.light-blue{
+    
+    background-color: lightblue;
+}
+
+.light-grey{
+    background-color: grey;
+}
+
+
+.grid{
+    max-width: 80%;
+}
+.container.grid-lg{
+    max-width: 80%;
+}
+
+.container{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.features-padding{
+    10px;
+}
+.features{
+    padding-bottom: 25px;
+}
+
+.marg-left{
+    margin-left: 5px;
+}
+
+.li {
+    line-height: 1px;
+    margin-left: -10px
+}
+
+.footer{
+    line-height: 0px;
+    padding: 15px;
+    background-color: #002293;
+    min-height: 75px;
+    color: #fff;
+}
+
+.logo{
+    float: right;
+    height: 50px;
+    display: inline-flex;
+}
+
+
+@media screen and (max-width: 770px) {
+    
+    .logo {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1{
+        font-size: 1.2rem;
+    }
+    }
+}
+
+
+@media screen and (max-width: 599px) {
+    .footer {
+    font: 6px;
+  }
+    
+    .logo {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
